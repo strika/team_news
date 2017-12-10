@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://www.weeklyteamnews.com/metrics
+    body:
+      encoding: US-ASCII
+      string: users=42&posts=12&token=aGftPgJwdsRH5fXWHnuecKMz
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.weeklyteamnews.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.3 (Ubuntu)
+      Date:
+      - Sun, 10 Dec 2017 17:09:02 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"efcea3f3e6b5c0d1ff481d4b227b0bc9"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ee467677-c905-4d5a-889f-de26402549bd
+      X-Runtime:
+      - '0.037253'
+    body:
+      encoding: UTF-8
+      string: Successfully recorded.
+    http_version: 
+  recorded_at: Sun, 10 Dec 2017 17:09:02 GMT
+recorded_with: VCR 4.0.0
